@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Elephant';
+    src: url('../fonts/Elephant-Regular.woff2') format('woff2'),
+        url('../fonts/Elephant-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../fonts/FuturaBT-Book.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../fonts/FuturaBT-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Elephant';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width:1110px;
+}

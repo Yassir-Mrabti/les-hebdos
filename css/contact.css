@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Elephant';
+    src: url('../fonts/Elephant-Regular.woff2') format('woff2'),
+        url('../fonts/Elephant-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('../fonts/FuturaBT-Book.woff2') format('woff2'),
+        url('../fonts/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../fonts/FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../fonts/FuturaBT-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/FuturaBT-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+.section-one{
+    background-image: url(../imgs/bg_form.png);
+    background-size: cover;
+    color: #ffffff;
+    height: 282px;
+}
+
+.section-two {
+    background-color: #f2f2f2;
+}
+
+.myContact {
+    height: 612px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input {
+    font-family: 'Futura Bk BT'!important;
+    color: #040404;
+}
+
+.myContact .for-margin{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.myContact div p {
+    display: flex !important;
+    line-height: 0.8;
+    font-family: 'Futura Bk BT'!important;
+    font-size: 30px;
+    color: #000000;
+}
+
+.myContact .form-control {
+    width: 555px;
+}
+
+.myContact .h-sixty{
+    height: 60px !important;
+}
+
+.btnInput {
+    font-family: 'Futura Md BT' !important;
+    font-size: 16px;
+    height: 60px !important;
+    width: 138px !important;
+    margin-top: 10px;
+    background-color: #1C1A1A;
+    color: #ffffff;
+    /* pointer-events: none; */
+    border-radius: 5px ;
+}
+
+.myContact .form-control::placeholder {
+    font-family: 'Futura Bk BT';
+    color: #455A64;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #040404;
+}
+
+footer .footer-logo{
+    width: 199.74px;
+    height: 40px;
+}
+
+footer .footer-container {
+    width: 100%;
+    font-family: 'Futura Bk BT' !important;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+footer .footer-container hr {
+    color: #ffffff;
+    padding-bottom: 21.06px !important;
+}
+
+.light-logo {
+    padding-top: 50px;
+    padding-left: 621px;
+    padding-bottom: 30px;
+}
+
+.myLink {
+    font-family: 'Futura Md BT'!important;
+    font-size: 16px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: white !important;
+}
+
+.for-gap {
+    gap: 24px;
+}
+
+.myIcon {
+    color: #ffffff;
+}
