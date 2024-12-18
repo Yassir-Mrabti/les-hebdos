@@ -11,6 +11,7 @@
             $image_name = $row['image_name'] ? $row['image_name'] : ' ' ;
         }else {
             header('location:'. SITEURL. 'admin/manage-hebdo.php');
+            exit;
         }
     }
 
@@ -36,13 +37,15 @@
                                         <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
                                         Hebdo supprimé avec succès
                                 </div>";
-        header('location:'.SITEURL ."admin/manage-hebdo.php");exit;
+        header('location:'.SITEURL ."admin/manage-hebdo.php");
+        exit;
     }else {
         echo $path;
         $_SESSION['operation'] ="<div class='alert alert-danger alert-dismissible'>
                                         <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
                                         Échec de la suppression de Hebdo
                                 </div>";
-        header('location:'.SITEURL ."admin/manage-hebdo.php");exit;
+        header('location:'.SITEURL ."admin/manage-hebdo.php");
+        exit;
     }
 ?>

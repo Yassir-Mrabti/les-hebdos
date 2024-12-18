@@ -13,6 +13,7 @@
             $image_name = $row['image_name'] ? $row['image_name'] : ' ' ;
         }else {
             header('location:'. SITEURL. 'admin/manage-category.php');
+            exit;
         }
     }
 
@@ -43,6 +44,7 @@
                                 </div>";
         //Redirect page
         header('location:'.SITEURL ."admin/manage-category.php");
+        exit;
     }else {
         echo $path;
         $_SESSION['operation'] ="<div class='alert alert-danger alert-dismissible'>
@@ -51,5 +53,6 @@
                                 </div>";
                                 
         header('location:'.SITEURL ."admin/manage-category.php");
+        exit;
     }
 ?>

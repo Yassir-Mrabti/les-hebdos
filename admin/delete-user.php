@@ -14,12 +14,14 @@
                                 </div>";
         //Redirect page
         header('location:'.SITEURL ."admin/manage-user.php");
+        exit;
     }else {
         $_SESSION['operation'] ="<div class='alert alert-danger alert-dismissible'>
                                         <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
                                         Échec de la suppression d'Utilisateur'
                                 </div>";
                                 
-        header('location:'.SITEURL ."admin/manage-user.php");
+        header('location:'.SITEURL ."admin/manage-user.php")
+        exit;
     }
 ?>

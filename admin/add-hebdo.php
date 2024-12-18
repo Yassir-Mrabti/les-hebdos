@@ -160,11 +160,12 @@
                         header('location:'.SITEURL.'admin/manage-hebdo.php');
                         exit;
                     }else {
-                        $_SESSION['operation'] = "<div class='alert alert-danger alert-dismissible'>
+                        $_SESSION['operation'] = "<div cexit();lass='alert alert-danger alert-dismissible'>
                         <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
                         Hebdo n'a pas été ajouté
                         </div>";
                         header('location:'.SITEURL.'admin/manage-hebdo.php');
+                        exit;
                     }
                 }
             ?>

@@ -126,6 +126,7 @@
                                                 </div>";
                         //Redirect page
                         header('location:'.SITEURL ."admin/manage-category.php");
+                        exit;
                     }else {
                         //Data not Inserted
                         //Creat a session variable to display messsage 
@@ -134,6 +135,7 @@
                                                     Échec de l'ajout d'une catégorie
                                                 </div>";
                         header('location:'.SITEURL ."admin/manage-category.php");
+                        exit;
                     }
                 }
             ?>

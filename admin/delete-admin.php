@@ -14,6 +14,7 @@
                                 </div>";
         //Redirect page
         header('location:'.SITEURL ."admin/manage-admin.php");
+        exit;
     }else {
         $_SESSION['operation'] ="<div class='alert alert-danger alert-dismissible'>
                                         <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
@@ -21,5 +22,6 @@
                                 </div>";
                                 
         header('location:'.SITEURL ."admin/manage-admin.php");
+        exit;
     }
 ?>

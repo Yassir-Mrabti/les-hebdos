@@ -83,6 +83,7 @@
                                                 </div>";
                         //Redirect page
                         header('location:'.SITEURL ."admin/manage-user.php");
+                        exit;
                     }else {
                         //Data not Inserted
                         //Creat a session variable to display messsage 
@@ -92,6 +93,7 @@
                                                 </div>";
                         //Redirect page
                         header('location:'.SITEURL ."admin/manage-user.php");
+                        exit;
                     }
                 }
             ?>
