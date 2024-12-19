@@ -35,6 +35,7 @@
 
                 }else {
                     header('location:'. SITEURL. 'admin/manage-user.php');
+                    exit;
                 }
             }
         ?>
@@ -92,6 +93,7 @@
                                             </div>";
                     //Redirect page
                     header('location:'.SITEURL ."admin/manage-user.php");
+                    exit;
                 }else {
                     $_SESSION['operation'] ="<div class='alert alert-danger alert-dismissible'>
                                                     <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
@@ -99,6 +101,7 @@
                                             </div>";
                                             
                     header('location:'.SITEURL ."admin/manage-user.php");
+                    exit;
                 }
             }
 
